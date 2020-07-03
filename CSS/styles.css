@@ -82,16 +82,20 @@ a:hover {
 
 .iniciofondo {
     position: absolute;
- bottom: 0px;
- right: 0px;
+ bottom: 98px;
+
  min-width: 100%;
- min-height: 100%;
+ min-height: 50%;
  width: auto;
- height: 87vh;
  z-index: -1000;
  overflow: hidden;
- opacity: .4;
+ opacity: 1;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
+
+
 
 
 .hero {
@@ -100,16 +104,28 @@ a:hover {
     width: 80%;
     height: 87vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 
 .hero p {
     
-    margin-left: 2em;
-    margin-right: 2em;
-    position: fixed;
-    top: 50%;
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-bottom: 1em;
+    position: relative;
+    text-shadow: 1px 1px 8px black;
+    font-size: .8em;
+    font-family: 'Bebas Neue', sans-serif ;
+}
+.hero p.tagline {
+    color: #00ffff;
+    margin-left: .2em;
+    margin-right: .2em;
+    position: relative;
+    letter-spacing: 10px;
     text-shadow: 1px 1px 8px black;
     font-size: 1em;
     font-family: 'Bebas Neue', sans-serif ;
