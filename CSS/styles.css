@@ -78,97 +78,6 @@ a:hover {
 }
 
 
-/* HERO */
-
-.iniciofondo {
-    position: absolute;
- bottom: 98px;
-
- min-width: 100%;
- min-height: 50%;
- width: auto;
- z-index: -1000;
- overflow: hidden;
- opacity: 1;
- display: flex;
- align-items: center;
- justify-content: center;
-}
-
-
-
-
-.hero {
-
-    margin: auto;
-    width: 80%;
-    height: 87vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.hero p {
-    
-    margin-left: .2em;
-    margin-right: .2em;
-    margin-bottom: 1em;
-    position: relative;
-    text-shadow: 1px 1px 8px black;
-    font-size: .8em;
-    font-family: 'Bebas Neue', sans-serif ;
-}
-.hero p.tagline {
-    color: #00ffff;
-    margin-left: .2em;
-    margin-right: .2em;
-    position: relative;
-    letter-spacing: 10px;
-    text-shadow: 1px 1px 8px black;
-    font-size: 1em;
-    font-family: 'Bebas Neue', sans-serif ;
-}
-
-/* .hero {
-    width: 100%;
-    
-    background-color: rgb(5, 5, 5);
-    overflow: hidden;
-
-} */
-
-/* .hero video {
-    
-   width: 100%;
-   
-   filter: opacity(100%);
-   filter: contrast(3);
-   mix-blend-mode: screen;
-
-} */
-
-   
-/* .hero video::-internal-media-controls {
-    display:none;
-}
-.hero video::-webkit-media-controls-enclosure {
-    overflow:hidden;
-}
- 
-.hero video::-webkit-media-controls-panel {
-    width: calc(100% + 25px);
-} */
-
-
-/* @media (max-width: 1400px) {
-    
-    
-    .hero video {height: 100vh;
-    }
-} */
-
 
 /* Header */
 
@@ -298,6 +207,72 @@ background-color:ivory;
 .menu nav a.activo, .menu nav a:hover {
     color: #00ffff;
 }
+
+
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 82.2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.hero p {
+    
+    margin-left: .2em;
+    margin-right: .2em;
+    margin-bottom: 1em;
+    position: relative;
+    text-shadow: 1px 1px 8px black;
+    font-size: .8em;
+    font-family: 'Bebas Neue', sans-serif ;
+}
+.hero p.tagline {
+    color: #00ffff;
+    margin-left: .2em;
+    margin-right: .2em;
+    position: relative;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 8px black;
+    font-size: 1em;
+    font-family: 'Bebas Neue', sans-serif ;
+}
+
+#videoBG {
+    position:fixed;
+    z-index: -100;
+    width:100%;     
+    height: auto;
+}
+@media (min-aspect-ratio: 16/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9) {
+    #videoBG { 
+        width:auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    #videoBG {
+        display: none;
+    
+}
+
+        
+   {} } */
+    
+{}} */
+
 
 
 
