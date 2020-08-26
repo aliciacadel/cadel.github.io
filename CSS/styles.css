@@ -19,12 +19,22 @@ a {
     color: inherit;
 }
 
+p a {
+    color:#b3b3b3;
+    font-style: italic;
+}
+
 p {
     font-family: 'Dosis', sans-serif;
     font-size: .8em;
 }
 
-
+h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 1em;
+    color: #00ffffb7 ;
+}
+}
 
 ::-webkit-scrollbar {
     width: 8px;     /* Tamaño del scroll en vertical */
